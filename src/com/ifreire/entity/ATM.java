@@ -65,8 +65,7 @@ public class ATM
 		
 		Enumeration<Integer> setKeys = cedulasSaque.keys();
         List<Integer> list = Collections.list(setKeys);
-        Collections.sort(list);
-        
+        Collections.sort(list, Collections.reverseOrder());
         
         list.forEach(
     		x ->

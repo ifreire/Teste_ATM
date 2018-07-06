@@ -13,6 +13,6 @@ public class TesteSaque
 		ATM atm = new ATM();
 		
 		Assert.assertEquals("2 nota(s) de 100", atm.sacar(200));
-		Assert.assertEquals("1 nota(s) de 50, 1 nota(s) de 100", atm.sacar(150));
+		Assert.assertEquals("1 nota(s) de 100, 1 nota(s) de 50", atm.sacar(150));
 	}
 }
