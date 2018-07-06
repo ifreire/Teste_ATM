@@ -4,6 +4,7 @@ import org.junit.Test;
 import com.ifreire.entity.ATM;
 import junit.framework.Assert;
 
+@SuppressWarnings("deprecation")
 public class TesteSaque
 {
 	@Test
